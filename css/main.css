@@ -31,3 +31,14 @@ body { padding-top: 80px; }
     margin: 20px;
   }
 }
+
+footer {
+  margin-top: 30px;
+  background: #333;
+  color: #fff;
+}
+
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
