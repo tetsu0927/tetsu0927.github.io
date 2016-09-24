@@ -31,3 +31,30 @@ body { padding-top: 80px; }
     margin: 20px;
   }
 }
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+section {
+  padding: 0 2rem;
+}
+
+dt, dd {
+  padding: 0.25rem 0;
+}
+
+dd {
+  margin-left: 4rem;
+}
+
+footer {
+  margin-top: 30px;
+  background: #333;
+  color: #fff;
+}
+
+.copyright {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
