@@ -32,6 +32,10 @@ body { padding-top: 80px; }
   }
 }
 
+div {
+  box-sizing: border-box;
+}
+
 .jumbotron {
   margin-bottom: 0;
 }
