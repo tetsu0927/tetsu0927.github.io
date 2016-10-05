@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>tetsu0927.github.io</title>
+  <title class="domain"></title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <!--[if lt IE 9]>
@@ -17,7 +17,7 @@
   <div class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-        <a href="/" class="navbar-brand">tetsu0927.github.io</a>
+        <a href="/" class="navbar-brand domain"></a>
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -98,7 +98,7 @@
 </div>
 <footer class="small">
   <div class="container">
-    <div class="text-center copyright">© 2016 tetsu.io</div>
+    <div id="copyright" class="text-center copyright"></div>
   </div>
 </footer>
 <script src="js/jquery.min.js"></script>
@@ -108,6 +108,8 @@
 (function($) {
   var age = moment().diff(moment('1990-09-27'), 'years');
   $('#age').html(age);
+  $('#copyright').html('© '+moment().years()+' '+document.domain);
+  $('.domain').html(document.domain);
 })(jQuery);
 </script>
 </body>
