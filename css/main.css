@@ -32,12 +32,12 @@ body { padding-top: 80px; }
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 .jumbotron {
   margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  padding-right: 0;
 }
 
 section {
