@@ -44,6 +44,10 @@ section {
   padding: 0 2rem;
 }
 
+.icon {
+  width: 100%;
+}
+
 dt, dd {
   padding: 0.25rem 0;
 }
