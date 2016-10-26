@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title class="domain">tetsu.io</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css?20161006">
+  <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+  <input type="text" name="security_code">
+</div>
+<script>
+(function($) {
+  var age = moment().diff(moment('1990-09-27'), 'years');
+  $('#age').html(age);
+  $('#copyright').html('© '+moment().years()+' '+document.domain);
+  $('.domain').html(document.domain);
+})(jQuery);
+</script>
+</body>
+</html>
+
