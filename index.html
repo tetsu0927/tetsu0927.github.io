@@ -96,6 +96,12 @@
     <p>yet...</p>
     <p>comming soon</p>
   </section>
+  <aside>
+    <div class="social-buttons">
+      <div id="line-like" class="line-it-button" data-lang="ja" data-type="like" data-url="" data-share="true" style="display: none;"></div>
+      <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+   </div>
+  </aside>
 </div>
 <footer class="small">
   <div class="container">
@@ -111,6 +117,7 @@
   $('#age').html(age);
   $('#copyright').html('© '+moment().years()+' '+document.domain);
   $('.domain').html(document.domain);
+  $('#line-like').attr('data-url', location.toString());
 })(jQuery);
 </script>
 </body>
